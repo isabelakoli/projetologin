@@ -1,4 +1,8 @@
 @charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
 /*
 paleta de cores;
 verde:#49a09d
@@ -8,20 +12,21 @@ lilas:#5f2c82
 
 
 body{
-    background:linear-gradient=(to top #49a09d
+    background:linear-gradient(to bottom, #49a09d,
     #5f2c82 );
     width: 100%;
-height: 100%; 
+    height: 100%; 
 
 }
 
 main{ 
+    background-color: white;
    border : 1px, solid, black; 
    border-radius: 2%;
-   margin-top: 250px; 
+ margin: 220px;
    width: 850px;  
    height: 300px;
-   margin: auto;
+   
    text-align: center;
    padding: 10px;
    
@@ -29,16 +34,21 @@ main{
     
  #formulario{
 text-align: justify;
-
-
+left: 50%;
+}
+#formulario>h1{
+    
 }
 section #login{
- 
-
+    
 }
 #imagem{
-    background-image:url(imagens/pexels-gdtography-277628-911738.jpg) ;
-    background:left ;
-    width: 150px;
-    height: 150px;
+    background-image:url(imagens/pexels-gdtography-277628-911738.jpg);
+    width: 469px;
+    height: 323px;
+    border-radius: 2%;
+   position:absolute;
+   left: 46%;
+   right: 50%;
+   transform: translate(-2%, -2%);
 }

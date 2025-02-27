@@ -37,6 +37,7 @@ text-align: justify;
 left: 50%;
 }
 #formulario>h1{
+    right: 80px;
     
 }
 section #login{
@@ -44,11 +45,26 @@ section #login{
 }
 #imagem{
     background-image:url(imagens/pexels-gdtography-277628-911738.jpg);
-    width: 469px;
-    height: 323px;
-    border-radius: 2%;
-   position:absolute;
+    width: 475px;
+    height: 310px;
+    border-radius: 5%;
+   position: absolute;
    left: 46%;
    right: 50%;
-   transform: translate(-2%, -2%);
+   padding-block-start: 13px;
+   padding-inline-start: 10px;
+  
+   
+   transform: translate(-1%, -4%);
+}
+#email{
+    border:1px, solid, black;
+    border-radius: 25%;
+    background-color:#41797779;
+}
+#senha{
+    border:1px, solid, black ;
+    background-color:#41797779;
+    border-radius: 5%;
+    
 }

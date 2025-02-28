@@ -61,18 +61,39 @@ section #login{
     border:2px, solid, rgba(0, 0, 0, 0.712);
     border-radius: 5px;
     background-color:#e2f1f9;
+    margin-top: 20px;
+    width:320px;
+    height: 22px;
+    
 }
 #senha{
     border:2px, solid, rgba(0, 0, 0, 0.712) ;
     background-color:#41797779;
     border-radius: 5px;
-    margin-top: 5px;
-    
+    margin-top: 15px;
+    width:320px;
+    height: 22px;
 }
 #enviar{
  background-color: #4eaaa5;
- margin-top: 5px;
- border:2px, solid, rgba(0, 0, 0, 0.712);
+ margin-top: 15px;
+ border:2px, solid, rgba(0, 0, 0, 0.438);
  border-radius: 5px;
- width: ;
+ width:356px;
+ height: 26px;
+display: inline;
+}
+.fundoroxo#email{
+    border: solid #5f2c82;
+    border-top:3px ;
+    
+    border-right:30px ;
+    border-left-width: 30px;
+    border-
+}
+.fundoroxo#senha{
+    border:  solid #5f2c82;
+    border-left-width: 30px;
+    border-bottom:2px ;
+   
 }

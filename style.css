@@ -57,43 +57,53 @@ section #login{
    
    transform: translate(-1%, -4%);
 }
-#email{
+#email2{
     border:2px, solid, rgba(0, 0, 0, 0.712);
     border-radius: 10px;
     background-color:#e2f1f9;
-    margin-top: 20px;
-    width:320px;
-    height: 22px;
+    width: 327px;
+    height: 28px;
     
 }
-#senha{
+#senha2{
     border:2px, solid, rgba(0, 0, 0, 0.712) ;
     background-color:#41797779;
-    border-radius: 15px;
-    margin-top: 15px;
-    width:320px;
-    height: 22px;
-}
-#enviar{
- background-color: #4eaaa5;
- margin-top: 15px;
- border:2px, solid, rgba(0, 0, 0, 0.438);
- border-radius: 10px;
- width:356px;
- height: 26px;
-display: inline;
-}
-.fundoroxo#email{
-    border: solid #5f2c82;
     border-radius: 10px;
+    width:327px;
+    height: 28px;
+}
+.enviar{
+ background-color: #4eaaa5;
+ margin-top: 7px;
+ border:2px, solid, rgba(0, 0, 0, 0.438);
+ border-radius: 7px;
+ width: 360px;
+ height: 32px;
+
+}
+.email{
+    margin-top: 20px;
+    border: solid #5f2c82;
+    border-radius: 7px;
     border-bottom-right-radius:1px 0px 6px;
     border-left-width: 30px;
-    
+    width: 327px;
     
 }
-.fundoroxo#senha{
+.senha{
     border:  solid #5f2c82;
+    border-radius: 7px;
     border-bottom-right-radius:1px 0px 0px;
     border-left-width: 30px;
-   
+    width: 327px;
+    margin-top: 7px;
+}
+
+.esqueciasenha{
+margin-top: 7px;
+border:2px, solid,#97c5bd;
+ border-radius: 7px;
+ width: 360px;
+ height: 32px;
+ text-align: center;
 }

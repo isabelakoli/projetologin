@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="estilo/telapequena.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
+    
 </head>
 <body>
     <main>
@@ -22,15 +23,25 @@
 <form action="login.php " method="post" autocomplete="off">
 
    <div>
-       <i class="material-icons">email</i>
+    
        
-        <input  type="email"  name="email"class="email2"placeholder="seu email" > <br>
+       <input  type="email"  name="email"class="email2"placeholder="seu email" > <br>
         <label for="iemail"></label>
             <input type="password"  name="senha" class="senha2"  placeholder="sua senha" required minlength="8" maxlength="20"><br>
             <label for="isenha"></label>
+            </div>
        
-        <input type="submit" class="enviar"> <br>
-        <a href="esqueci.html" target="_blank"><input type="email" class="esqueciasenha" placeholder="Esqueci a senha" ></a>
+        <div class="campo">
+          
+            <input type="submit" value="enviar" class="enviar"> <br>
+
+
+            <input type="esqueciasenha" class="esqueciasenha"><a href="esqueci.html" target="_blank">Esqueci a senha</a>
+            <span class="material-symbols-outlined">
+                mail
+                </span>
+            </a>
+        
    </div>
 
 </form>

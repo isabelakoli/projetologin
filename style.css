@@ -63,7 +63,7 @@ section #login{
     background-color:#e2f1f9;
     width: 327px;
     margin: 10px 5px;
-    border-right: 20px;
+    
     
 }
 .senha2{
@@ -72,7 +72,7 @@ section #login{
     border-radius: 10px;
     width:360px;
    height: 40px;
-    margin: 10px 5px;
+    
    }
 .enviar{
  background-color: #4eaaa5;
@@ -94,8 +94,8 @@ border:2px, solid,#97c5bd;
  text-align: center;
 }
 
-form    > a.email2:hover{
-    background-color: #681e3d;
+ form> a.esqueciasenha:hover{
+    background-color: rgb(39, 128, 187);
    
 }
 a{

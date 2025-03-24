@@ -86,7 +86,7 @@ section #login{
 }
 
 
-.esqueciasenha{
+form >a.esqueciasenha{
 margin-top: 7px;
 border:2px, solid,#97c5bd;
  border-radius: 9px;
@@ -96,7 +96,7 @@ border:2px, solid,#97c5bd;
  
 }
 
- div.campo input > a:hover{
+form > input[type=submit]:hover {
    background-color: #65cec8;
    
 }

@@ -16,32 +16,30 @@
 <div id="imagem">
        </div>
 
-<div id="formulario">
-
-
-
    <div id="formulario">
     <h1>LOGIN</h1>
    <p> <br>Seja bem-vindo(a) novamente. faça login para acessar a <br>
     sua  conta e poder fazer as configurações no seu ambiente.</p>
     <form action="login.php " method="post" autocomplete="off">
        
-       <input  type="email"  name="email"class="email2"placeholder="seu email" > <br>
+       <input  type="email"  name="email" id="email"   placeholder="seu email" > <br>
         <label for="iemail"></label>
-            <input type="password"  name="senha" class="senha2"  placeholder="sua senha" required minlength="8" maxlength="20"><br>
+
+            <input type="password"  name="senha" id="senha"  placeholder="sua senha" required minlength="8" maxlength="20"><br>
+
             <label for="isenha"></label>
             </div>
        
-        <div class="campo">
+        <div class="enviar">
           
-            <input type="submit" value="enviar" class="enviar" > <br>
-            <a href="esqueci.html" target="_top" class="esqueciasenha" >Esqueci a senha</a>
-   
-
-</form>
-
-
+            <input type="submit" value="enviar"  > <br>
 </div>
+<div class="esqueciasenha">
+
+    <a href="esqueci.html" target="_top">Esqueci a senha</a>
+   
+</div>
+</form>
         </section>
     </main>
 </body>

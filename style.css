@@ -2,7 +2,8 @@
 *{
     padding: 0px;
     margin: 0px;
-}
+    font-family: 'Times New Roman', Times, serif;
+   }
 /*
 paleta de cores;
 verde:#49a09d
@@ -68,7 +69,7 @@ section #login{
  form > input[type=email]{
     border:2px, solid, #5f2c82;
     border-radius: 5px;
-    background-color:black ;
+    background-color:white ;
     width: 353px;
     margin: 10px 5px;
     height: 30px;
@@ -83,23 +84,24 @@ form > input[type=password]{
    height: 30px;
     
    }
-div#enviar{
- background-color:white;
+form> input[type=submit]{
+ background-color:#2d877d;
  margin-top: 10px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
  border-radius: 9px;
  width: 360px;
  height: 40px;
+color: white;
 
 }
 
 
-main > a {
-margin-top: 7px;
+form > a.botao {
+margin-top: 10px;
 border:2px, solid,#97c5bd;
  border-radius: 9px;
  width: 360px;
- height: 32px;
+ height: 80px;
  color:black;
  text-align: right;
 }

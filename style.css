@@ -27,14 +27,14 @@ main{
    width: 850px;  
    height: 300px;
    
-   text-align: center;
+   
    padding: 10px;
    
     }
     
  #formulario{
 text-align: justify;
-left: 50%;
+
 }
 #formulario>h1{
 
@@ -65,26 +65,26 @@ section #login{
    
    transform: translate(-1%, -4%);
 }
- div.fomulario#email{
+ form > input[type=email]{
     border:2px, solid, #5f2c82;
     border-radius: 5px;
-    background-color:#e2f1f9;
+    background-color:black ;
     width: 353px;
     margin: 10px 5px;
     height: 30px;
     
     
 }
-div.fomulario#senha{
+form > input[type=password]{
     border:2px, solid, #5f2c82 ;
-    background-color:#93e4e0c5;
+    background-color:#93d0c9;
     border-radius: 5px;
     width:358px;
    height: 30px;
     
    }
-div.enviar{
- background-color: #4eaaa5;
+div#enviar{
+ background-color:white;
  margin-top: 10px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
  border-radius: 9px;
@@ -94,23 +94,16 @@ div.enviar{
 }
 
 
-div.esqueciasenha {
+main > a {
 margin-top: 7px;
 border:2px, solid,#97c5bd;
  border-radius: 9px;
  width: 360px;
  height: 32px;
- text-align: center;
- color: black;
- 
+ color:black;
+ text-align: right;
 }
 
-div.esqueciasenha >a:hover {
-   background-color: #65cec8;
+
    
-}
-a{
-    color: white;
-    text-decoration:none;  
-    font-weight: bolder; 
-}
+

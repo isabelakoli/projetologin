@@ -38,16 +38,9 @@ text-align: justify;
 
 }
 #formulario>h1{
-
- 
+ padding-left: 140px;
 }
-.left {
-    width: 50%; /* Ocupa a metade esquerda da tela */
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Opcional: se quiser ajustar mais para o meio da esquerda */
-   
-  }
+
   
 section #login{
     
@@ -77,12 +70,12 @@ form> div.campo{
   height: 30px;
 }
 
- form.campo > input[type="email"]{
+ form> div.campo > input[type="email"]{ 
     
     
     background-color:white ;
     width: 353px;
-    margin: 10px 5px;
+    
     height: 30px;
     
     
@@ -112,6 +105,7 @@ color: white;
 form > div.botao {
 margin-top: 10px;
 padding-top: 10px;
+padding-bottom: 10px;
 border:2px, solid,black;
  border-radius: 9px;
  width: 355px;
@@ -123,7 +117,7 @@ a{
   color: black;
   text-decoration: none;
 }
-form> a:hover{
+div.botao:hover{
   background-color:#68d4cb;
 }
 

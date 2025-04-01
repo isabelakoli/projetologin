@@ -70,24 +70,33 @@ form> div.campo{
   height: 30px;
 }
 
- form> div.campo > input[type="email"]{ 
-    
-    
+ form> div.campo > input[type=email]{ 
+    display: block;
+    width: 100%;
     background-color:white ;
     width: 353px;
-    
+    cursor: pointer;
     height: 30px;
-    
-    
+    transition: calc(100%, 44);  
+}
+form > input[type=email]:hover {
+  background-color:#79bdb7;
 }
 
-form >input[type=password]{
+form > input[type=password]{
     
     background-color:#93d0c9;
     border-radius:10px;
     width:358px;
    height: 30px;
     padding-bottom: 0%;
+   }
+   form > input[type=password]:hover{
+    background-color:#79bdb7;
+   }
+   
+   div.campo > label{
+  display: none;
    }
 
 form> input[type=submit]{
@@ -105,17 +114,21 @@ color: white;
 form > div.botao {
 margin-top: 10px;
 padding-top: 10px;
-padding-bottom: 10px;
+padding-bottom: 5px;
 border:2px, solid,black;
  border-radius: 9px;
  width: 355px;
- height: 30px;
+ height: 26px;
  text-align:center;
  
 }
-a{
+a {
   color: black;
   text-decoration: none;
+ font: size 4em; 
+}
+ form>div.botao > span{
+  font-size:0.8em;
 }
 div.botao:hover{
   background-color:#68d4cb;

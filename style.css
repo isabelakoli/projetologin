@@ -60,48 +60,35 @@ section #login{
    transform: translate(-1%, -4%);
 }
 
-form> div.campo{
+form > div.campo{
   background-color: #5f2c82;
-  border:2px, solid, #5f2c82;
-  border-radius: 5px;
-  margin: 10px;
-  padding-top: 2px;
-  width: 350px;
-  height: 30px;
+  border-radius:2px solid #5f2c82;
+  border-radius: 9px;
+  margin: 10px 0px;
+  width: 40%;
+  height: 0px;
+  display: block;
 }
-
- form> div.campo > input[type=email]{ 
-    display: block;
-    width: 100%;
-    background-color:white ;
-    width: 353px;
-    cursor: pointer;
-    height: 30px;
-    transition: calc(100%, 44);  
+div.campo > input{
+  width: calc(100% -44px);  
+  transform: translatey(-10px);
+    height: 40px;
+   width: 100%;
+    border: 0px;
+    padding: 4px;
+    border-radius: 9px;
 }
-form > input[type=email]:hover {
-  background-color:#79bdb7;
-}
-
-form > input[type=password]{
-    
-    background-color:#93d0c9;
-    border-radius:10px;
-    width:358px;
-   height: 30px;
-    padding-bottom: 0%;
-   }
-   form > input[type=password]:hover{
-    background-color:#79bdb7;
-   }
+ div.campo > input:hover{
+ background-color: #49a09d;
+ }
    
    div.campo > label{
-  display: none;
-   }
+    display: none;
+     }
 
 form> input[type=submit]{
- background-color:#2d877d;
- margin-top: 10px;
+  background-color:#2d877d;
+ margin-top: 7px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
  border-radius: 10px;
  width: 360px;
@@ -109,6 +96,11 @@ form> input[type=submit]{
 color: white;
 
 }
+form> input[type=submit]:hover{
+  
+  background-color:rgba(0, 119, 255, 0.484);
+}
+
 
 
 form > div.botao {
@@ -126,6 +118,7 @@ a {
   color: black;
   text-decoration: none;
  font: size 4em; 
+ transition: calc();
 }
  form>div.botao > span{
   font-size:0.8em;

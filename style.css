@@ -22,7 +22,6 @@ body{
 
 main{ 
     background-color: white;
-   border : 1px, solid, black; 
    border-radius: 2%;
  margin: 220px;
    width: 850px;  
@@ -40,23 +39,19 @@ text-align: justify;
 #formulario>h1{
  padding-left: 140px;
 }
-
-  
-section #login{
-    
-}
-#imagem{
+div#imagem{
     background-image:url(imagens/pexels-gdtography-277628-911738.jpg);
     width: 475px;
-    height: 310px;
-    border-radius: 5%;
-   position: absolute;
-   left: 46%;
-   right: 50%;
+    height: 307px;
+    margin-top:13px;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius:5% ;
+    position: absolute;
+    left: 46%;
+    right: 70%;
    padding-block-start: 13px;
    padding-inline-start: 10px;
   
-   
    transform: translate(-1%, -4%);
 }
 
@@ -64,19 +59,20 @@ form > div.campo{
   background-color: #5f2c82;
   border-radius:2px solid #5f2c82;
   border-radius: 9px;
-  margin: 10px 0px;
-  width: 40%;
-  height: 0px;
+  margin: 7px 0px;
+  width: 373px;
+  height: 40px;
   display: block;
 }
-div.campo > input{
-  width: calc(100% -44px);  
-  transform: translatey(-10px);
-    height: 40px;
-   width: 100%;
-    border: 0px;
+div.campo > input{ 
+  transform: translate(33px
+   ,-35px);
+  height: 30px;
+   width: 330px;
+    border: 10px;
     padding: 4px;
     border-radius: 9px;
+    background-color: white;
 }
  div.campo > input:hover{
  background-color: #49a09d;
@@ -84,14 +80,19 @@ div.campo > input{
    
    div.campo > label{
     display: none;
+ }
+
+ div.campo>  span {
+  font-size: 2em;
+  color: white;
      }
 
 form> input[type=submit]{
   background-color:#2d877d;
- margin-top: 7px;
+ margin: 2px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
  border-radius: 10px;
- width: 360px;
+ width: 369px;
  height: 40px;
 color: white;
 
@@ -104,12 +105,12 @@ form> input[type=submit]:hover{
 
 
 form > div.botao {
-margin-top: 10px;
+margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 5px;
 border:2px, solid,black;
  border-radius: 9px;
- width: 355px;
+ width: 365px;
  height: 26px;
  text-align:center;
  

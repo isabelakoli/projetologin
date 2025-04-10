@@ -1,17 +1,22 @@
 @charset "UTF-8";
 
 @media all{
-  
+    img{
+        display: block;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width:600px){
-        #login{
-            display: block;
+        form{
+            display: none;
 
         }
  }
 @media screen and (min-width:600px) and (max-width:768px) {
-   
+   form{
+        display: none;
+    }
 }
 @media screen and (min-width:768px) and (max-width:992px) {
    
@@ -23,6 +28,7 @@ main{
 }
 @media screen and (min-width:992px) and (max-width:1200px){
    
+    
 }
 @media screen and (min-width:1200px) {
     

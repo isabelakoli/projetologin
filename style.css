@@ -35,6 +35,12 @@ main{
 text-align: justify;
 
 }
+section#login >div#formulario{
+display: flex;
+justify-content: center;
+  align-items: center; 
+}
+
 #formulario>h1{
  padding-left: 140px;
 }
@@ -52,6 +58,7 @@ div#imagem{
    padding-inline-start: 10px;
   
    transform: translate(-1%, -4%);
+   display: block;
 }
 
 form > div.campo{

@@ -30,7 +30,6 @@ main{
  margin: 220px;
    width: 850px;  
    height: 300px;
-   
    padding: 10px;
    
     }
@@ -48,19 +47,18 @@ justify-content: center;
 #formulario>h1{
  padding-left: 140px;
 }
-div#imagem{
-    background-image:url(imagens/pexels-gdtography-277628-911738.jpg);
+section#login >div#imagem{
+  background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
     width: 475px;
     height: 307px;
     margin-top:13px;
     border-top-right-radius: 5%;
-    border-bottom-right-radius:5% ;
+    border-bottom-right-radius:5%;
     position: absolute;
     left: 46%;
     right: 70%;
    padding-block-start: 13px;
    padding-inline-start: 10px;
-  
    transform: translate(-1%, -4%);
    display: block;
 }

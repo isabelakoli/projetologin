@@ -46,7 +46,7 @@ justify-content: center;
 }
 section#login >div#imagem{
   background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-    width: 250px;
+    width: 230px;
     height: 349px;
     margin-top:13px;
     border-top-right-radius: 5%;
@@ -65,7 +65,7 @@ form > div.campo{
   border-radius:2px solid #5f2c82;
   border-radius: 9px;
   margin: 7px 0px;
-  width: 373px;
+  width: 270px;
   height: 40px;
   display: block;
 }
@@ -73,7 +73,7 @@ div.campo > input{
   transform: translate(33px
    ,-35px);
   height: 30px;
-   width: 330px;
+   width: 170px;
     border: 10px;
     padding: 4px;
     border-radius: 9px;
@@ -97,7 +97,7 @@ form> input[type=submit]{
  margin: 2px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
  border-radius: 10px;
- width: 369px;
+ width: 230px;
  height: 40px;
 color: white;
 
@@ -115,7 +115,7 @@ padding-top: 10px;
 padding-bottom: 5px;
 border:2px, solid,black;
  border-radius: 9px;
- width: 365px;
+ width: 230px;
  height: 26px;
  text-align:center;
  
@@ -180,7 +180,7 @@ justify-content: center;
 }
 section#login >div#imagem{
   background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-    width: 250px;
+    width: 300px;
     height: 349px;
     margin-top:13px;
     border-top-right-radius: 5%;
@@ -199,15 +199,15 @@ form > div.campo{
   border-radius:2px solid #5f2c82;
   border-radius: 9px;
   margin: 7px 0px;
-  width: 373px;
+  width: 300px;
   height: 40px;
-  display: block;
+ display: block;
 }
 div.campo > input{ 
   transform: translate(33px
    ,-35px);
   height: 30px;
-   width: 330px;
+   width: 260px;
     border: 10px;
     padding: 4px;
     border-radius: 9px;
@@ -231,7 +231,7 @@ form> input[type=submit]{
  margin: 2px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
  border-radius: 10px;
- width: 369px;
+ width: 295px;
  height: 40px;
 color: white;
 
@@ -249,7 +249,7 @@ padding-top: 10px;
 padding-bottom: 5px;
 border:2px, solid,black;
  border-radius: 9px;
- width: 365px;
+ width: 295px;
  height: 26px;
  text-align:center;
  

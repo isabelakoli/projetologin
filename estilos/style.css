@@ -136,7 +136,7 @@ div.botao:hover{
  @media (min-width:992px) and (max-width:1200px){
   *{
     padding: 0px;
-    margin: 0px;
+    margin: 1px;
     font-family: 'Times New Roman', Times, serif;
    }
 /*
@@ -156,10 +156,11 @@ body{
 }
 
 main{ 
+  
     background-color: white;
    border-radius:2%;
  margin: 220px;
-   width: 600px;  
+   width: 700px;  
    height: 340px;
    padding: 10px;
    
@@ -173,16 +174,22 @@ section#login >div#formulario{
 display: block;
 justify-content: center;
   align-items: center; 
+  transform: translate(280px
+   ,-10px);
+}
 }
 
 #formulario>h1{
  padding-left: 140px;
+ transform: translate(280px
+   ,-10px);
 }
 section#login >div#imagem{
   background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
     width: 300px;
     height: 349px;
     margin-top:13px;
+    border: left 1,0px;
     border-top-right-radius: 5%;
     border-bottom-right-radius:5%;
     position: absolute;
@@ -195,19 +202,23 @@ section#login >div#imagem{
 }
 
 form > div.campo{
+   transform: translate(410px
+   ,-35px);
   background-color: #5f2c82;
   border-radius:2px solid #5f2c82;
   border-radius: 9px;
-  margin: 7px 0px;
+  margin: 30px 0px;
+  margin-bottom: 35px;
   width: 300px;
   height: 40px;
  display: block;
 }
 div.campo > input{ 
-  transform: translate(33px
-   ,-35px);
+  
+  transform: translate(32px
+   ,-37px);
   height: 30px;
-   width: 260px;
+   width: 258px;
     border: 10px;
     padding: 4px;
     border-radius: 9px;
@@ -227,8 +238,10 @@ div.campo > input{
      }
 
 form> input[type=submit]{
+  transform: translate(410px
+   ,-35px);
   background-color:#2d877d;
- margin: 2px;
+ margin: 5px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
  border-radius: 10px;
  width: 295px;
@@ -244,6 +257,8 @@ form> input[type=submit]:hover{
 
 
 form > div.botao {
+  transform: translate(410px
+   ,-35px);
 margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 5px;
@@ -255,18 +270,21 @@ border:2px, solid,black;
  
 }
 a {
-  color: black;
-  text-decoration: none;
- font: size 4em; 
- transition: calc();
+  margin bottom:10px;
+  color:black;
+  font-size:2em;
+  text-decoration:none;
+  size
+ transition:calc();
 }
+
  form>div.botao > span{
   font-size:0.8em;
 }
 div.botao:hover{
   background-color:#68d4cb;
 }
- }
+   
 @media (min-width:1200px)  { 
 
 
@@ -295,7 +313,7 @@ main{
     background-color: white;
    border-radius: 2%;
  margin: 220px;
-   width: 850px;  
+   width: 600px;  
    height: 300px;
    padding: 10px;
    

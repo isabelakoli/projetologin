@@ -11,10 +11,13 @@ body{
 main{
   background-color: white;
     border-radius: 2%;
-    margin: 350px;
+  margin-top:200px ;
     width: 300px;  
     height: 500px;
-    padding: 10px;  
+    padding: 10px; 
+   text-align: center;
+   margin: auto;
+   transform: translate(-10px, 50px);
 }
 #formulario{
   text-align: justify; }
@@ -25,7 +28,7 @@ section#login >div#formulario{
     align-items: center; 
   }
   #formulario{
-    
+    text-align: justify;
     
     }
     section#login >div#formulario{
@@ -39,14 +42,14 @@ section#login >div#formulario{
     }
     div#imagem{
       background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-        width: 475px;
-        height: 307px;
+        width: 300px;
+        height: 200px;
         margin-top:13px;
         border-top-right-radius: 5%;
         border-bottom-right-radius:5% ;
         position: absolute;
-        top: 90%;
-        right: 10%;
+        top: 9%;
+        right: 30%;
        padding-block-start: 13px;
        padding-inline-start: 10px;
       
@@ -62,16 +65,18 @@ section#login >div#formulario{
       width: 373px;
       height: 40px;
       display: block;
+      transform: translate(-20px, 50px);
+
     }
     div.campo > input{ 
       transform: translate(33px
        ,-35px);
       height: 30px;
-       width: 330px;
-        border: 10px;
-        padding: 4px;
-        border-radius: 9px;
-        background-color: white;
+      width: 330px;
+      border: 10px;
+      padding: 4px;
+      border-radius: 9px;
+      background-color: white;
     }
      div.campo > input:hover{
      background-color: #49a09d;

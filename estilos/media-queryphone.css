@@ -12,12 +12,12 @@ main{
   background-color: white;
     border-radius: 2%;
   margin-top:200px ;
-    width: 300px;  
-    height: 500px;
+    width: 250px;  
+    height: 450px;
     padding: 10px; 
    text-align: center;
    margin: auto;
-   transform: translate(-10px, 50px);
+   transform: translate(-10px, 75px);
 }
 #formulario{
   text-align: justify; }
@@ -39,21 +39,21 @@ section#login >div#formulario{
     
     #formulario>h1{
      padding-left: 140px;
+      transform: translate(-10px, 75px);
     }
     div#imagem{
       background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-        width: 300px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         margin-top:13px;
         border-top-right-radius: 5%;
-        border-bottom-right-radius:5% ;
+        border-bottom-right-radius:5% ; 
         position: absolute;
-        top: 9%;
-        right: 30%;
+        right: 40%;
+
        padding-block-start: 13px;
        padding-inline-start: 10px;
-      
-       transform: translate(-1%, -4%);
+ transform: translate(-1%, -4%);
        display: block;
     }
     
@@ -65,14 +65,13 @@ section#login >div#formulario{
       width: 373px;
       height: 40px;
       display: block;
-      transform: translate(-20px, 50px);
+       transform: translate(-90px, 75px);
 
     }
     div.campo > input{ 
-      transform: translate(33px
-       ,-35px);
+      
       height: 30px;
-      width: 330px;
+      width: 200px;
       border: 10px;
       padding: 4px;
       border-radius: 9px;

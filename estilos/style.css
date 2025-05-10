@@ -133,7 +133,7 @@ div.botao:hover{
   background-color:#68d4cb;
 }
  }
- @media (min-width:992px) and (max-width:1200px){
+ @media (min-width:992px) and (max-width:1199px){
   *{
     padding: 0px;
     margin: 1px;
@@ -270,12 +270,12 @@ border:2px, solid,black;
  
 }
 a {
-  margin bottom:10px;
+  margin: 10px;
   color:black;
   font-size:2em;
   text-decoration:none;
-  size
- transition:calc();
+  font-size:4px;
+
 }
 
  form>div.botao > span{

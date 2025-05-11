@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media (min-width:768px) and (max-width:992px){
+@media (min-width:769px) and (max-width:992px){
   *{
     padding: 0px;
     margin: 0px;
@@ -42,8 +42,11 @@ justify-content: center;
 }
 
 #formulario>h1{
- padding-left: 140px;
+ float: left;
+ width: 60%;
 }
+
+
 section#login >div#imagem{
   background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
     width: 230px;
@@ -53,7 +56,7 @@ section#login >div#imagem{
     border-bottom-right-radius:5%;
     position: absolute;
     left: 46%;
-    right: 10%;
+    right: 30%;
    padding-block-start: 13px;
    padding-inline-start: 10px;
    transform: translate(-1%, -4%);
@@ -68,10 +71,9 @@ form > div.campo{
   width: 270px;
   height: 40px;
   display: block;
-}
-div.campo > input{ 
-  transform: translate(33px
-   ,-35px);
+  }
+div.campo> input{ 
+  padding-left: 140px;
   height: 30px;
    width: 170px;
     border: 10px;
@@ -133,7 +135,7 @@ div.botao:hover{
   background-color:#68d4cb;
 }
  }
- @media (min-width:992px) and (max-width:1199px){
+ @media (min-width:992px) and (max-width:1200px){
   *{
     padding: 0px;
     margin: 1px;
@@ -160,7 +162,7 @@ main{
     background-color: white;
    border-radius:2%;
  margin: 220px;
-   width: 700px;  
+   width: 850px;  
    height: 340px;
    padding: 10px;
    
@@ -172,6 +174,7 @@ text-align: justify;
 }
 section#login >div#formulario{
 display: block;
+padding-left: 220px;
 justify-content: center;
   align-items: center; 
   transform: translate(280px
@@ -180,9 +183,13 @@ justify-content: center;
 }
 
 #formulario>h1{
- padding-left: 140px;
- transform: translate(280px
-   ,-10px);
+ padding-left: 560px;
+ 
+  }
+
+   #formulario >p{
+  padding-left: 400px;
+  margin-bottom: 5px;
 }
 section#login >div#imagem{
   background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
@@ -193,8 +200,8 @@ section#login >div#imagem{
     border-top-right-radius: 5%;
     border-bottom-right-radius:5%;
     position: absolute;
-    left: 46%;
-    right: 10%;
+    right: 76%;
+    left: 20%;
    padding-block-start: 13px;
    padding-inline-start: 10px;
    transform: translate(-1%, -4%);
@@ -202,20 +209,21 @@ section#login >div#imagem{
 }
 
 form > div.campo{
-   transform: translate(410px
+   transform: translate(460px
    ,-35px);
   background-color: #5f2c82;
   border-radius:2px solid #5f2c82;
   border-radius: 9px;
-  margin: 30px 0px;
-  margin-bottom: 35px;
+  padding-bottom: 0%;
+  margin-top: 5px;
+  margin: 20px 0px;
+  margin-bottom: 10px;
   width: 300px;
   height: 40px;
  display: block;
 }
 div.campo > input{ 
-  
-  transform: translate(32px
+    transform: translate(36px
    ,-37px);
   height: 30px;
    width: 258px;
@@ -238,10 +246,10 @@ div.campo > input{
      }
 
 form> input[type=submit]{
-  transform: translate(410px
-   ,-35px);
+  transform: translate(460px
+   ,-54px);
   background-color:#2d877d;
- margin: 5px;
+ margin: 10px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
  border-radius: 10px;
  width: 295px;
@@ -257,8 +265,8 @@ form> input[type=submit]:hover{
 
 
 form > div.botao {
-  transform: translate(410px
-   ,-35px);
+  transform: translate(460px
+   ,-54px);
 margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 5px;
@@ -330,7 +338,9 @@ justify-content: center;
 }
 
 #formulario>h1{
- padding-left: 140px;
+  float:right;
+  width:77%;
+ 
 }
 section#login >div#imagem{
   background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
@@ -349,6 +359,8 @@ section#login >div#imagem{
 }
 
 form > div.campo{
+   transform: translate(-7px
+   ,-35px);
   background-color: #5f2c82;
   border-radius:2px solid #5f2c82;
   border-radius: 9px;
@@ -358,7 +370,7 @@ form > div.campo{
   display: block;
 }
 div.campo > input{ 
-  transform: translate(33px
+transform: translate(33px
    ,-35px);
   height: 30px;
    width: 330px;
@@ -368,6 +380,8 @@ div.campo > input{
     background-color: white;
 }
  div.campo > input:hover{
+   transform: translate(-7px
+   ,-35px);
  background-color: #49a09d;
  }
    
@@ -381,6 +395,8 @@ div.campo > input{
      }
 
 form> input[type=submit]{
+   transform: translate(-7px
+   ,-35px);
   background-color:#2d877d;
  margin: 2px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
@@ -398,6 +414,8 @@ form> input[type=submit]:hover{
 
 
 form > div.botao {
+   transform: translate(-7px
+   ,-35px);
 margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 5px;

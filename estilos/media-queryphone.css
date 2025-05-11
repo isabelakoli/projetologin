@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @media  (max-width: 768px) {
+  *{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+   }
 
 body{
         background-color: #5f2c82;
@@ -38,23 +43,28 @@ section#login >div#formulario{
     }
     
     #formulario>h1{
-     padding-left: 140px;
-      transform: translate(-10px, 75px);
+   float:right;
+  width:60%;
+    
+    }
+    #formulario>p{
+      align-items: center;
+    
     }
     div#imagem{
       background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height:40px;
         margin-top:13px;
         border-top-right-radius: 5%;
         border-bottom-right-radius:5% ; 
         position: absolute;
-        right: 40%;
-
+        bottom: 40%;
+        left:10%;
        padding-block-start: 13px;
        padding-inline-start: 10px;
- transform: translate(-1%, -4%);
-       display: block;
+       transform: translate(-1%, -4%);
+      display: block;
     }
     
     form > div.campo{
@@ -65,20 +75,24 @@ section#login >div#formulario{
       width: 373px;
       height: 40px;
       display: block;
-       transform: translate(-90px, 75px);
+       transform: translate(60px, -75px);
 
     }
     div.campo > input{ 
       
       height: 30px;
-      width: 200px;
+      width: 50px;
       border: 10px;
       padding: 4px;
       border-radius: 9px;
       background-color: white;
+      transform: translate(600px, -75px);
+
     }
      div.campo > input:hover{
      background-color: #49a09d;
+     transform: translate(600px, -75px);
+    
      }
        
        div.campo > label{

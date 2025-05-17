@@ -53,7 +53,7 @@ section#login >div#formulario{
     }
     div#imagem{
       background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-        width: 200px;
+        width: 100px;
         height:40px;
         margin-top:13px;
         border-top-right-radius: 5%;
@@ -86,7 +86,7 @@ section#login >div#formulario{
       padding: 4px;
       border-radius: 9px;
       background-color: white;
-      transform: translate(600px, -75px);
+      transform: translate(60px, -75px);
 
     }
      div.campo > input:hover{

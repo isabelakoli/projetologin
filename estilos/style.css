@@ -49,7 +49,7 @@ justify-content: center;
 
 section#login >div#imagem{
   background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-    width: 230px;
+    width: 100px;
     height: 349px;
     margin-top:13px;
     border-top-right-radius: 5%;
@@ -64,6 +64,7 @@ section#login >div#imagem{
 }
 
 form > div.campo{
+   transform: translate(250px ,100px);
   background-color: #5f2c82;
   border-radius:2px solid #5f2c82;
   border-radius: 9px;
@@ -73,7 +74,7 @@ form > div.campo{
   display: block;
   }
 div.campo> input{ 
-  padding-left: 140px;
+   transform: translate(60px ,65px);
   height: 30px;
    width: 170px;
     border: 10px;
@@ -95,7 +96,7 @@ div.campo> input{
      }
 
 form> input[type=submit]{
-  transform: translate(10px 30px);
+  transform: translate(290px ,-8px);
   background-color:#2d877d;
  margin: 2px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
@@ -113,7 +114,7 @@ form> input[type=submit]:hover{
 
 
 form > div.botao {
-   transform: translate(10px 30px);
+  transform: translate(290px ,35px);
 margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 5px;
@@ -160,14 +161,13 @@ body{
 }
 
 main{ 
-  
     background-color: white;
    border-radius:2%;
  margin: 220px;
-   width: 850px;  
+   width: 770px;  
    height: 340px;
    padding: 10px;
-    transform: translate(-110px, -1px);
+    
    
     }
     
@@ -186,50 +186,49 @@ justify-content: center;
 }
 
 #formulario>h1{
- padding-left: 400px;
-
- 
+ padding-left: 530px;
   }
 
    #formulario>p{
   padding-bottom:7px;
-  padding-left: 300px;
-  padding-top: -20px;
+  padding-left: 440px;
+  padding-top: -10px;
   
 }
 section#login >div#imagem{
   background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-    width: 300px;
-    height: 349px;
+    width: 450px;
+    height: 350px;
     margin-top:13px;
     border-top-left-radius: 10%;
     border-bottom-left-radius:10%;
+    position: relative;
     position: absolute;
     right: 76%;
     left: 20%;
    padding-block-start: 13px;
    padding-inline-start: 10px;
-   transform: translate(-1%, -4%);
+   transform: translate(-16%,-4%);
    display: block;
 }
 
 form > div.campo{
-    padding-left: 500px;
+   transform: translate(430px, -10px);
   background-color: #5f2c82;
   border-radius:2px solid #5f2c82;
   border-radius: 9px;
   padding-bottom: 0%;
   margin-top: 5px;
   margin: 20px 0px;
-  margin-bottom: 10px;
-  width: 300px;
+  margin-bottom: 15px;
+  width: 316px;
   height: 40px;
  display: block;
 }
 div.campo > input{ 
-    padding-left: 400px;
+    transform: translate(34px, -37px);
   height: 30px;
-   width: 300px;
+   width: 270px;
     border: 10px;
     padding: 4px;
     border-radius: 9px;
@@ -249,12 +248,12 @@ div.campo > input{
      }
 
 form> input[type=submit]{
- transform: translate(50px 50px);
+ transform: translate(410px ,-30px);
   background-color:#2d877d;
- margin: 10px;
+ margin: 15px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
  border-radius: 10px;
- width: 300px;
+ width: 320px;
  height: 43px;
 color: white;
 
@@ -267,14 +266,14 @@ form> input[type=submit]:hover{
 
 
 form > div.botao {
-  transform: translate(460px
-   ,-10px);
+  transform: translate(420px
+   ,-40px);
 margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 5px;
 border:2px, solid,black;
  border-radius: 9px;
- width: 295px;
+ width: 320px;
  height: 26px;
  text-align:center;
  
@@ -345,9 +344,12 @@ justify-content: center;
   width:77%;
  
 }
+#formulario>p{
+  transform: translate(-440px,10px);
+}
 section#login >div#imagem{
-  background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-    width: 475px;
+background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
+    width: 500px;
     height: 307px;
     margin-top:13px;
     border-top-right-radius: 5%;
@@ -357,26 +359,26 @@ section#login >div#imagem{
     right: 70%;
    padding-block-start: 13px;
    padding-inline-start: 10px;
-   transform: translate(-1%, -4%);
-   display: block;
+   transform: translate(8%, -4%);
+   display: block
 }
 
 form > div.campo{
-   transform: translate(-7px
-   ,-35px);
+   transform: translate(-4px
+   ,10px);
   background-color: #5f2c82;
   border-radius:2px solid #5f2c82;
   border-radius: 9px;
   margin: 7px 0px;
-  width: 373px;
+  width: 340px;
   height: 40px;
   display: block;
 }
 div.campo > input{ 
-transform: translate(33px
+transform: translate(30px
    ,-35px);
   height: 30px;
-   width: 330px;
+   width: 300px;
     border: 10px;
     padding: 4px;
     border-radius: 9px;
@@ -399,12 +401,12 @@ transform: translate(33px
 
 form> input[type=submit]{
    transform: translate(-7px
-   ,-35px);
+   ,10px);
   background-color:#2d877d;
  margin: 2px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
  border-radius: 10px;
- width: 369px;
+ width: 340px;
  height: 40px;
 color: white;
 
@@ -418,14 +420,14 @@ form> input[type=submit]:hover{
 
 form > div.botao {
    transform: translate(-7px
-   ,-35px);
+   ,10px);
 margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 5px;
 border:2px, solid,black;
  border-radius: 9px;
- width: 365px;
- height: 26px;
+ width: 335px;
+ height: 20px;
  text-align:center;
  
 }

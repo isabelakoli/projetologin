@@ -95,6 +95,7 @@ div.campo> input{
      }
 
 form> input[type=submit]{
+  transform: translate(10px 30px);
   background-color:#2d877d;
  margin: 2px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
@@ -112,6 +113,7 @@ form> input[type=submit]:hover{
 
 
 form > div.botao {
+   transform: translate(10px 30px);
 margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 5px;
@@ -125,7 +127,7 @@ border:2px, solid,black;
 a {
   color: black;
   text-decoration: none;
- font: size 4em; 
+ font-size: 4em; 
  transition: calc();
 }
  form>div.botao > span{
@@ -135,7 +137,7 @@ div.botao:hover{
   background-color:#68d4cb;
 }
  }
- @media (min-width:992px) and (max-width:1200px){
+ @media (min-width:993px) and (max-width:1200px){
   *{
     padding: 0px;
     margin: 1px;
@@ -165,6 +167,7 @@ main{
    width: 850px;  
    height: 340px;
    padding: 10px;
+    transform: translate(-110px, -1px);
    
     }
     
@@ -183,14 +186,14 @@ justify-content: center;
 }
 
 #formulario>h1{
- padding-left: 560px;
+ padding-left: 400px;
 
  
   }
 
    #formulario>p{
   padding-bottom:7px;
-  padding-left: 400px;
+  padding-left: 300px;
   padding-top: -20px;
   
 }
@@ -199,9 +202,8 @@ section#login >div#imagem{
     width: 300px;
     height: 349px;
     margin-top:13px;
-    border: left 3,0px;
-    border-top-right-radius: 10%;
-    border-bottom-right-radius:10%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius:10%;
     position: absolute;
     right: 76%;
     left: 20%;
@@ -212,8 +214,7 @@ section#login >div#imagem{
 }
 
 form > div.campo{
-   transform: translate(460px
-   ,-10px);
+    padding-left: 500px;
   background-color: #5f2c82;
   border-radius:2px solid #5f2c82;
   border-radius: 9px;
@@ -226,10 +227,9 @@ form > div.campo{
  display: block;
 }
 div.campo > input{ 
-    transform: translate(31px
-   ,-37px);
+    padding-left: 400px;
   height: 30px;
-   width: 258px;
+   width: 300px;
     border: 10px;
     padding: 4px;
     border-radius: 9px;
@@ -249,8 +249,7 @@ div.campo > input{
      }
 
 form> input[type=submit]{
-  transform: translate(454px
-   ,-11px);
+ transform: translate(50px 50px);
   background-color:#2d877d;
  margin: 10px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
@@ -295,6 +294,7 @@ a {
 div.botao:hover{
   background-color:#68d4cb;
 }
+
    
 @media (min-width:1200px)  { 
 
@@ -324,7 +324,7 @@ main{
     background-color: white;
    border-radius: 2%;
  margin: 220px;
-   width: 600px;  
+   width: 800px;  
    height: 300px;
    padding: 10px;
    

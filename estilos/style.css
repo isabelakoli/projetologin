@@ -184,21 +184,24 @@ justify-content: center;
 
 #formulario>h1{
  padding-left: 560px;
+
  
   }
 
-   #formulario >p{
+   #formulario>p{
+  padding-bottom:7px;
   padding-left: 400px;
-  margin-bottom: 5px;
+  padding-top: -20px;
+  
 }
 section#login >div#imagem{
   background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
     width: 300px;
     height: 349px;
     margin-top:13px;
-    border: left 1,0px;
-    border-top-right-radius: 5%;
-    border-bottom-right-radius:5%;
+    border: left 3,0px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius:10%;
     position: absolute;
     right: 76%;
     left: 20%;
@@ -210,7 +213,7 @@ section#login >div#imagem{
 
 form > div.campo{
    transform: translate(460px
-   ,-35px);
+   ,-10px);
   background-color: #5f2c82;
   border-radius:2px solid #5f2c82;
   border-radius: 9px;
@@ -223,7 +226,7 @@ form > div.campo{
  display: block;
 }
 div.campo > input{ 
-    transform: translate(36px
+    transform: translate(31px
    ,-37px);
   height: 30px;
    width: 258px;
@@ -246,14 +249,14 @@ div.campo > input{
      }
 
 form> input[type=submit]{
-  transform: translate(460px
-   ,-54px);
+  transform: translate(454px
+   ,-11px);
   background-color:#2d877d;
  margin: 10px;
  border:2px, solid, rgba(0, 0, 0, 0.438);
  border-radius: 10px;
- width: 295px;
- height: 40px;
+ width: 300px;
+ height: 43px;
 color: white;
 
 }
@@ -266,7 +269,7 @@ form> input[type=submit]:hover{
 
 form > div.botao {
   transform: translate(460px
-   ,-54px);
+   ,-10px);
 margin-top: 5px;
 padding-top: 10px;
 padding-bottom: 5px;

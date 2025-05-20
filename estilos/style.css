@@ -25,7 +25,7 @@ main{
     background-color: white;
    border-radius:2%;
  margin: 220px;
-   width: 600px;  
+   width: 800px;  
    height: 340px;
    padding: 10px;
    
@@ -45,22 +45,26 @@ justify-content: center;
  float: left;
  width: 60%;
 }
+#formulario>p{
+ transform: translate(-10px,10px);
+}
 
 
 section#login >div#imagem{
-  background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
+ background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
     width: 100px;
-    height: 349px;
+    height: 307px;
     margin-top:13px;
     border-top-right-radius: 5%;
     border-bottom-right-radius:5%;
     position: absolute;
     left: 46%;
-    right: 30%;
+    right: 70%;
    padding-block-start: 13px;
    padding-inline-start: 10px;
-   transform: translate(-1%, -4%);
+   transform: translate(8%, -4%);
    display: block;
+  
 }
 
 form > div.campo{

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media  (max-width: 768px) {
+@media  (max-width: 767px) {
   *{
     padding: 0px;
     margin: 0px;
@@ -14,15 +14,15 @@ body{
         overflow: hidden;
 }
 main{
-  background-color: white;
-    border-radius: 2%;
-  margin-top:200px ;
-    width: 250px;  
-    height: 450px;
-    padding: 10px; 
-   text-align: center;
-   margin: auto;
-   transform: translate(-10px, 75px);
+  position: relative;
+   background-color: white;
+   border-radius:2%;
+ margin: 220px;
+   width: 300px;  
+   height: 500px;
+   padding: 10px;
+  transform: translate(-110px,-150px);
+  z-index: 1;
 }
 #formulario{
   text-align: justify; }
@@ -43,28 +43,27 @@ section#login >div#formulario{
     }
     
     #formulario>h1{
-   float:right;
-  width:60%;
-    
+       transform: translate(-426px,140px);
+  
     }
     #formulario>p{
-      align-items: center;
+    transform: translate(-440px,130px);
+    width:300px;
     
     }
-    div#imagem{
+    section#login >div#imagem{
       background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-        width: 100px;
-        height:40px;
+        width:315px;
+        height:120px;
         margin-top:13px;
         border-top-right-radius: 5%;
-        border-bottom-right-radius:5% ; 
+        border-top-left-radius:5% ; 
         position: absolute;
         bottom: 40%;
         left:10%;
-       padding-block-start: 13px;
-       padding-inline-start: 10px;
-       transform: translate(-1%, -4%);
-      display: block;
+       transform: translate(17.3%, -136%);
+       z-index: 10;
+      
     }
     
     form > div.campo{
@@ -72,21 +71,21 @@ section#login >div#formulario{
       border-radius:2px solid #5f2c82;
       border-radius: 9px;
       margin: 7px 0px;
-      width: 373px;
+      width: 250px;
       height: 40px;
       display: block;
-       transform: translate(60px, -75px);
+       transform: translate(24px,126px);
 
     }
-    div.campo > input{ 
+    div.campo>input{ 
       
       height: 30px;
-      width: 50px;
+      width: 200px;
       border: 10px;
       padding: 4px;
       border-radius: 9px;
       background-color: white;
-      transform: translate(60px, -75px);
+      transform: translate(5px,-8px);
 
     }
      div.campo > input:hover{
@@ -107,15 +106,15 @@ section#login >div#formulario{
     form> input[type=submit]{
       background-color:#2d877d;
      margin: 2px;
-     border:2px, solid, rgba(0, 0, 0, 0.438);
+     border:2px solid rgba(0, 0, 0, 0.438);
      border-radius: 10px;
-     width: 369px;
+     width: 250px;
      height: 40px;
     color: white;
+    transform: translate(22px,130px);
     
     }
     form> input[type=submit]:hover{
-      
       background-color:rgba(0, 119, 255, 0.484);
     }
     
@@ -125,11 +124,12 @@ section#login >div#formulario{
     margin-top: 5px;
     padding-top: 10px;
     padding-bottom: 5px;
-    border:2px, solid,black;
+    border:2px solid black;
      border-radius: 9px;
-     width: 365px;
-     height: 26px;
+     width: 246px;
+     height: 20px;
      text-align:center;
+     transform: translate(22px,130px);
      
     }
     a {

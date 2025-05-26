@@ -25,8 +25,8 @@ main{
     background-color: white;
    border-radius:2%;
  margin: 220px;
-   width: 800px;  
-   height: 340px;
+   width: 500px;  
+   height: 300px;
    padding: 10px;
    
     }
@@ -42,33 +42,34 @@ justify-content: center;
 }
 
 #formulario>h1{
- float: left;
- width: 60%;
+  position: relative;
+ right: 30%;
 }
 #formulario>p{
- transform: translate(-10px,10px);
+ transform: translate(-138px,10px);
+  width: 200px;
 }
 
 
 section#login >div#imagem{
  background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
+ z-index: 1;
     width: 100px;
-    height: 307px;
-    margin-top:13px;
+    height: 170px;
     border-top-right-radius: 5%;
     border-bottom-right-radius:5%;
     position: absolute;
-    left: 46%;
-    right: 70%;
+    top: 13px;
    padding-block-start: 13px;
    padding-inline-start: 10px;
    transform: translate(8%, -4%);
    display: block;
+   
   
 }
 
 form > div.campo{
-   transform: translate(250px ,100px);
+   transform: translate(250px ,120px);
   background-color: #5f2c82;
   border-radius:2px solid #5f2c82;
   border-radius: 9px;
@@ -78,9 +79,9 @@ form > div.campo{
   display: block;
   }
 div.campo> input{ 
-   transform: translate(60px ,65px);
+   transform: translate(60px ,95px);
   height: 30px;
-   width: 170px;
+   width: 100px;
     border: 10px;
     padding: 4px;
     border-radius: 9px;
@@ -114,9 +115,6 @@ form> input[type=submit]:hover{
   
   background-color:rgba(0, 119, 255, 0.484);
 }
-
-
-
 form > div.botao {
   transform: translate(290px ,35px);
 margin-top: 5px;
@@ -201,12 +199,13 @@ justify-content: center;
 }
 section#login >div#imagem{
   background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-    width: 450px;
+  z-index:2;
+    width: 400px;
     height: 350px;
     margin-top:13px;
     border-top-left-radius: 10%;
     border-bottom-left-radius:10%;
-    position: relative;
+    
     position: absolute;
     right: 76%;
     left: 20%;
@@ -353,14 +352,13 @@ justify-content: center;
 }
 section#login >div#imagem{
 background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
+z-index: 3;
     width: 500px;
     height: 307px;
     margin-top:13px;
     border-top-right-radius: 5%;
     border-bottom-right-radius:5%;
     position: absolute;
-    left: 46%;
-    right: 70%;
    padding-block-start: 13px;
    padding-inline-start: 10px;
    transform: translate(8%, -4%);

@@ -51,17 +51,19 @@ section#login >div#formulario{
     width:300px;
     
     }
-    section#login >div#imagem{
+    div.imagem{
       background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
         width:315px;
         height:120px;
         margin-top:13px;
-        border-top-right-radius: 5%;
-        border-top-left-radius:5% ; 
+        border-top-right-radius: 10%;
+        border-top-left-radius:10% ; 
+         border-bottom-left-radius:0px;
+          border-bottom-right-radius:0px;
         position: absolute;
         bottom: 40%;
         left:10%;
-       transform: translate(17.3%, -136%);
+       transform: translate(17.3%, -140%);
        z-index: 10;
       
     }

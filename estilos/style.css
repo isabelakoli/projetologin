@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media (min-width:769px) and (max-width:992px){
+@media (min-width:768px) and (max-width:991.98px){
   *{
     padding: 0px;
     margin: 0px;
@@ -18,13 +18,13 @@ body{
     #5f2c82 );
     width: 100%;
     height: 100%; 
-    overflow: hidden;
+   overflow: hidden;
 }
 
 main{ 
     background-color: white;
    border-radius:2%;
- margin: 220px;
+ margin: 220px ;
    width: 500px;  
    height: 300px;
    padding: 10px;
@@ -51,20 +51,18 @@ justify-content: center;
 }
 
 
-section#login >div#imagem{
- background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
- z-index: 1;
-    width: 100px;
-    height: 170px;
-    border-top-right-radius: 5%;
-    border-bottom-right-radius:5%;
-    position: absolute;
-    top: 13px;
-   padding-block-start: 13px;
-   padding-inline-start: 10px;
-   transform: translate(8%, -4%);
-   display: block;
-   
+section#login >div.imagem{
+   background: #5f2c82 url(pexels-gdtography-277628-911738.jpg) no-repeat center center;
+  z-index: 1;
+  width: 200px;
+  height: 90px;
+  border-radius: 10px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+ 
   
 }
 
@@ -101,10 +99,10 @@ div.campo> input{
      }
 
 form> input[type=submit]{
-  transform: translate(290px ,-8px);
+  transform: translate(290px ,-100px);
   background-color:#2d877d;
  margin: 2px;
- border:2px, solid, rgba(0, 0, 0, 0.438);
+ border:2px solid rgba(0, 0, 0, 0.438);
  border-radius: 10px;
  width: 230px;
  height: 40px;
@@ -140,7 +138,7 @@ div.botao:hover{
   background-color:#68d4cb;
 }
  }
- @media (min-width:993px) and (max-width:1200px){
+ @media (min-width:992px) and (max-width:1200px){
   *{
     padding: 0px;
     margin: 1px;
@@ -185,8 +183,8 @@ justify-content: center;
   transform: translate(280px
    ,-10px);
 }
-}
 
+ }
 #formulario>h1{
  padding-left: 530px;
   }
@@ -197,15 +195,15 @@ justify-content: center;
   padding-top: -10px;
   
 }
-section#login >div#imagem{
+
+section#login >div.imagem{
   background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-  z-index:2;
-    width: 400px;
+  z-index: 1;
+    width: 450px;
     height: 350px;
     margin-top:13px;
     border-top-left-radius: 10%;
     border-bottom-left-radius:10%;
-    
     position: absolute;
     right: 76%;
     left: 20%;
@@ -296,7 +294,7 @@ a {
 div.botao:hover{
   background-color:#68d4cb;
 }
-
+  
    
 @media (min-width:1200px)  { 
 
@@ -350,18 +348,20 @@ justify-content: center;
 #formulario>p{
   transform: translate(-440px,10px);
 }
-section#login >div#imagem{
+section#login >div.imagem{
 background: #5f2c82 url(pexels-gdtography-277628-911738.jpg);
-z-index: 3;
-    width: 500px;
+ z-index: 100;
+    width: 445px;
     height: 307px;
     margin-top:13px;
-    border-top-right-radius: 5%;
+   border-top-right-radius: 5%;
     border-bottom-right-radius:5%;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
     position: absolute;
    padding-block-start: 13px;
    padding-inline-start: 10px;
-   transform: translate(8%, -4%);
+   transform: translate(70%, -4%);
    display: block
 }
 
